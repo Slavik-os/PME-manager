@@ -1,0 +1,1 @@
+INSERT INTO employee_table (matricule,firstName,lastName,departement,fonction,salaire,em_date,photo) VALUES('KB23','AKRAM','EL-KALKHA','IT','DEV','1450',STR_TO_DATE('2022-02-21','%Y-%m-%d'),'uploads/2117-full_60-berserk-wallpapers-download-at-wallpaperbro.png')

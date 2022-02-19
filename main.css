@@ -1,0 +1,67 @@
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+
+.btn-dark , .btn-light{
+    margin:10px;
+    animation-name: loadButtons;
+    animation-duration: 1s;
+}
+table {
+    /* animation-name: loadTable;
+    animation-duration: 2s; */
+}
+
+.btn-dark:hover  {
+    border : none !important ;
+    background : #f8f9fa !important;
+    color :#000 !important;
+}
+
+.btn-light:hover {
+    border : none !important ;
+    background : rgb(82, 82, 224) !important;
+    color :#fff !important; 
+} 
+.fa {
+    font-size : 26px !important;
+    cursor:  pointer !important;
+}
+td img {
+    width: 100px !important  ;
+}
+table {
+    overflow : hidden !important;
+    overflow: hidden !important;
+}
+
+.fa-trash {
+    color : red ;
+}
+td {
+    padding-top : 20px !important;
+}
+#message {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#inner-message {
+    margin: 0 auto; 
+}
+
+@keyframes loadButtons{
+    from {transform: translateY(-100px);opacity: 0;}
+    to {transform: translateY(0);opacity: 1;}
+}
+
+
+
+@keyframes loadTable {
+    from {transform: translateX(-100px);opacity: 0;}
+    to {transform: translateX(0);opacity: 1;}
+}
+
