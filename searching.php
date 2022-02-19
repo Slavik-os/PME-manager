@@ -42,7 +42,7 @@ while($row=$result->fetch_assoc()){
 		<td>'.$row['fonction'].'</td>
 		<td><img src="'.$row['photo'].'"></td>';
 	}
-} else {echo '<div class="text-center"> <strong> no records found </strong> </div>';}
+} else {echo '<div class="text-center"> <strong> Aucun enregistrement trouvé </strong> </div>';}
 
 ?>
 
